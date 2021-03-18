@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package faruq;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Faruq
+ */
+public class galonliter {
+    public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    
+    Double galon, total;
+    System.out.println("Konversi Galon ke Liter");
+    System.out.println("\nMasukan Jumlah Galon :"); 
+    galon = scan.nextDouble();
+    total = galon * 3.785;
+    System.out.println("\nGalon ke Liter =");
+    System.out.printf("%.0f Galon = %.3f Liter \n\n ", galon, total);
+    }
+}
